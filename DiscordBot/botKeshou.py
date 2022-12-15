@@ -18,4 +18,4 @@ async def stats(ctx):
 
     await ctx.send(message)
 
-client.run("MTA1Mjg4MTE2ODUwNjI5NDI3Mw.GopvLZ.OFfbKnpknfcjhnH7UMLXnuMQI1WF4vuNOq__us")
+client.run("Token")
