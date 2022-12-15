@@ -17,8 +17,9 @@ accountId = response1.json()['accountId']
 puuid = response1.json()['puuid']
 
 #liste de matchs depuis URL puuid
-debuturlLISTEMATCHS = "https://europe.api.riotgames.com/lol/match/v5/match/by-puuid/"
+debuturlLISTEMATCHS = "https://europe.api.riotgames.com/lol/match/v5/matches/by-puuid/"
 urlLISTEMATCHS = debuturlLISTEMATCHS + puuid + "/ids?start=0&count="+ nbGames + "&api_key=" + api_key
+print(urlLISTEMATCHS)
 
 # resquest liste des matchs 
 response2 = requests.get(urlLISTEMATCHS)
