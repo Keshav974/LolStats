@@ -1,5 +1,8 @@
 import requests, json
-
+# Variables globales
+api_key ="RGAPI-0a5eb06f-3773-4999-ae0b-2995a59b150a"
+name= "MentaIiyah%20Ill"
+nbGames = "20"
 # URL compte
 debuturlACCOUNT = "https://euw1.api.riotgames.com/lol/summoner/v4/summoners/by-name/"
 urlACCOUNT = debuturlACCOUNT + name + "?api_key=" + api_key
